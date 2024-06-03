@@ -1,4 +1,4 @@
-<h1 align="center"> Explorer - Desafio de JS - Proposto 01</h1>
+<h1 align="center"> Explorer - Intensivão Explorer Sem Limites</h1>
 
 <p align="center">
 Projeto para a formação Fullstack da Rocketseat para ensino de tecnologias WEB. <br/>
