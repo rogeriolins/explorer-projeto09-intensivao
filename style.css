@@ -56,20 +56,25 @@ header p {
 
 /* Main */
 main {
-  background-color: linear-gradient(
-    --color-linear-blue-top,
-    --color-linear-blue-bottom
+  background: linear-gradient(
+    145deg,
+    var(--color-linear-blue-top) 0%,
+    var(--color-linear-blue-bottom) 36%
   );
+  display: flex;
+  flex-direction: column;
+  gap: 5.2rem;
+  padding: 5.2rem 0;
+  border: 1px solid green;
 }
 
 main .card {
   padding: 2.6rem;
   background-color: var(--color-white);
-  margin-top: 
+  /* margin-top:  */
   margin-left: 3.9rem;
   margin-right: 3.9rem;
   border-radius: 2rem;
-
 }
 
 .card img {
@@ -78,8 +83,13 @@ main .card {
 
 .card h2 {
   margin-top: 3.3rem;
+  font-size: 3rem;
+  color: var(--color-font-main);
 }
 
 .card p {
+  font-size: 1.6rem;
+  font-weight: 600;
   margin-top: 2rem;
+  color: var(--color-font-sub);
 }
