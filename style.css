@@ -20,16 +20,15 @@ body {
   font-family: "Mulish", sans-serif;
   font-size: 3.2rem;
   background-color: var(--color-background);
+  margin: auto;
   width: 43rem;
-
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 67.9rem;
 }
 
 header .img-logo {
@@ -38,7 +37,7 @@ header .img-logo {
 
 header .img-arrow-down {
   width: 5.9rem;
-  margin-top: 3.5rem;
+  margin: 3.5rem 0 9.3rem;
 }
 
 header h1 {
@@ -93,3 +92,28 @@ main .card {
   margin-top: 2rem;
   color: var(--color-font-sub);
 }
+
+/* Section Contact Mail */
+#contact-mail {
+  margin-top: 7.8rem;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(
+    145deg,
+    var(--color-linear-blue-top) 0%,
+    var(--color-linear-blue-bottom) 36%
+  );
+  display: flex;
+  justify-content: center;
+}
+
+footer h2 {
+  color: var(--color-white);
+  padding: 3.2rem 1.6rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+
