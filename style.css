@@ -16,7 +16,10 @@
   font-size: 62.5%;
 }
 
-body {
+body,
+input,
+textarea,
+button {
   font-family: "Mulish", sans-serif;
   font-size: 3.2rem;
   background-color: var(--color-background);
@@ -98,6 +101,68 @@ main .card {
   margin-top: 7.8rem;
 }
 
+#contact-mail form {
+  margin: 4.3rem 0 6.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+#contact-mail h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: var(--color-font-main);
+}
+
+#contact-mail input,
+#contact-mail textarea,
+#contact-mail button {
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: 1px solid color(--color-font-sub);
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+  color: var(--color-font-sub);
+}
+
+#contact-mail input {
+  padding-left: 5rem;
+}
+
+#contact-mail input::placeholder,
+#contact-mail textarea::placeholder {
+  color: var(--color-font-sub);
+}
+
+#contact-mail textarea {
+  font-size: 1.6rem;
+}
+
+#name {
+  background-image: url(assets/person.svg);
+  background-repeat: no-repeat;
+  background-position: 12px center;
+}
+
+#mail {
+  background-image: url(assets/at.svg);
+  background-repeat: no-repeat;
+  background-position: 12px center;
+}
+
+#contact-mail button {
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 2.4rem;
+  background-color: var(--color-font-sub);
+  color: var(--color-white);
+  align-items: flex-end;
+  padding: 1rem 1.6rem;
+  margin-left: 0;
+  max-width: fit-content;
+}
+
 /* Footer */
 footer {
   background: linear-gradient(
@@ -116,4 +181,7 @@ footer h2 {
   font-size: 2rem;
 }
 
-
+/* header,
+main {
+  display: none;
+} */
