@@ -47,7 +47,7 @@ Fácil até aqui, né? Bora se desafiar? 👀 🧑‍🚀
 - [ ] Verifique se a soma dos dois números é par (ou ímpar);
 - [ ] Verifique se os dois números inseridos são iguais (ou diferentes).
 
-- [Acesse o projeto finalizado, online](https://rogeriolins.github.io/explorer-desafio-js-proposto-01)
+- [Acesse o projeto finalizado, online](https://rogeriolins.github.io/explorer-projeto09-intensivao)
 
 - [Assistir aulas](https://www.rocketseat.com.br/formacao/fullstack?utm_source=github&utm_medium=explorer-projeto-07-fotoblog&utm_campaign=capture-explorer&utm_term=organic&utm_content=descricao-github-rogeriolins)
 
