@@ -2,7 +2,7 @@
 
 <p align="center">
 Projeto para a formação Fullstack da Rocketseat para ensino de tecnologias WEB. <br/>
-<a href="https://www.rocketseat.com.br/formacao/fullstack?utm_source=github&utm_medium=explorer-projeto-07-fotoblog&utm_campaign=capture-explorer&utm_term=organic&utm_content=descricao-github-rogeriolins">Faça essa formação em vídeo clicando aqui.</a>
+<a href="https://www.rocketseat.com.br/formacao/fullstack?utm_source=github&utm_medium=explorer-projeto-01-desafio-intensivao&utm_campaign=capture-explorer&utm_term=organic&utm_content=descricao-github-rogeriolins">Faça essa formação em vídeo clicando aqui.</a>
 </p>
 
 <p align="center">
@@ -28,28 +28,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - Git e Github
-- JavaScript
+- JavaScript (Não usei)
 
 ## 💻 Projeto
 
-O Desafio de JS - Proposto 01 - tem as seguintes finalidades:
+O Desafio tem as seguintes finalidades:
 
-Solicitar ao usuário que ele insira dois números e, a partir daí, calcular:
-
-- [ ] A soma dos dois números;
-- [ ] A subtração dos dois números;
-- [ ] A multiplicação dos dois números;
-- [ ] A divisão dos dois números;
-- [ ] O resto da divisão dos dois números;
-
-Fácil até aqui, né? Bora se desafiar? 👀 🧑‍🚀
-
-- [ ] Verifique se a soma dos dois números é par (ou ímpar);
-- [ ] Verifique se os dois números inseridos são iguais (ou diferentes).
+Reproduzir um site criado no figma pra Mobile e Desktop
 
 - [Acesse o projeto finalizado, online](https://rogeriolins.github.io/explorer-projeto09-intensivao)
 
-- [Assistir aulas](https://www.rocketseat.com.br/formacao/fullstack?utm_source=github&utm_medium=explorer-projeto-07-fotoblog&utm_campaign=capture-explorer&utm_term=organic&utm_content=descricao-github-rogeriolins)
+- [Assistir aulas](https://www.rocketseat.com.br/formacao/fullstack?utm_source=github&utm_medium=explorer-projeto-01-desafio-intensivao&utm_campaign=capture-explorer&utm_term=organic&utm_content=descricao-github-rogeriolins)
 
 ## 🔖 Layout
 

@@ -24,11 +24,16 @@ button {
   font-size: 3.2rem;
   background-color: var(--color-background);
   margin: auto;
-  width: 43rem;
+  width: 100%;
   /* border: 1px solid red; */
 }
 
-header {
+body {
+  width: 43rem;
+}
+
+header,
+.textsLandingPage {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,14 +103,19 @@ main .card {
 
 /* Section Contact Mail */
 #contact-mail {
-  margin-top: 7.8rem;
+  margin: 7rem 4rem;
+  /* width: 80%; */
 }
 
 #contact-mail form {
-  margin: 4.3rem 0 6.9rem;
+  margin: 4.3rem 0 6.9rem 0;
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+}
+
+#starts {
+  background-image: none;
 }
 
 #contact-mail h2 {
@@ -123,6 +133,7 @@ main .card {
   border-radius: 1.6rem;
   padding: 1.6rem;
   color: var(--color-font-sub);
+  width: 100%;
 }
 
 #contact-mail input {
@@ -181,7 +192,91 @@ footer h2 {
   font-size: 2rem;
 }
 
+/* Media Querys */
+@media (width >= 430px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media (width >= 900px) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    flex-direction: row;
+    /* gap: 6rem; */
+    padding: 6.4rem 6rem;
+  }
+
+  main .card {
+    padding: 3.2rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    border-radius: 2rem;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    border: 1px solid orange;
+    margin: 0 auto;
+  }
+
+  aside #contact-mail {
+    /* max-width: 90rem; */
+    /* min-width: calc(100% - 65rem); */
+    min-width: 65rem;
+    align-items: end;
+  }
+
+  #starts {
+    background-image: url(assets/stars.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  header .img-logo {
+    width: 72.4rem;
+  }
+
+  main {
+    margin-top: 10.3rem;
+  }
+
+  header h1 {
+    font-size: 5.8rem;
+    font-weight: 900;
+    color: var(--color-font-main);
+    margin-top: 31.2rem;
+  }
+
+  header p {
+    font-size: 3.4rem;
+  }
+
+  header .img-arrow-down {
+    width: 5.9rem;
+    margin: 10.9rem 0 9.3rem;
+    margin-right: calc(100% - 5.8rem);
+    justify-content: flex-start;
+  }
+}
+
+@media (width >= 1200px) {
+}
+
 /* header,
-main {
+main,
+section,
+footer {
   display: none;
 } */
